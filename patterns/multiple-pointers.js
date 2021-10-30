@@ -1,4 +1,4 @@
-//Return first pair of elements in array that sum to zero
+//Return first pair of elements in array that sum to zero, sorted array
 
 function sumZero(arr) {
     let left = 0
@@ -20,7 +20,7 @@ function sumZero(arr) {
 
 console.log(sumZero([-4,-3,-2,-1,0,1,2,3,10])) //[-3,3]
 
-//Count Unique values - my solution
+//Count Unique values - my solution, sorted array
 function countUniqueValues(arr){
     if (arr.length === 0) return 0;
     let i=0;
