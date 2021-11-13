@@ -1,3 +1,5 @@
+//check if integer is palindrome
+
 function isPalindrome(x) {
     
     if (typeof x === 'number') {
@@ -18,5 +20,5 @@ function isPalindrome(x) {
 console.log(isPalindrome(121)) //true
 console.log(isPalindrome(23456))//false
 console.log(isPalindrome(3443))//true
-console.log(isPalindrome(-10))//false
+console.log(isPalindrome(-100))//false
 console.log(isPalindrome(1000021))//false
