@@ -1,4 +1,4 @@
-//array must be sorted
+//search for value in array; return index if found, -1 if not; array must be sorted
 function binarySearch(arr,value) {
     let left = 0;
     let right = arr.length - 1;
